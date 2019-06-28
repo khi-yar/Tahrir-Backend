@@ -28,7 +28,7 @@ class Comment(models.Model):
     translation = GenericForeignKey('content_type', 'object_id')
 
     def save(self, *args, **kwargs):
-        if self.rating > 5 or self.rating < 1:
+        if int(self.rating) > 5 or int(self.rating) < 1:
             raise ValidationError('Rating outside valid range.')
         super(Comment, self).save(*args, **kwargs)
 
