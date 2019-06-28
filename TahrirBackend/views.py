@@ -1,7 +1,11 @@
+import logging
+
 from django.http import JsonResponse, HttpResponseNotFound, HttpResponseBadRequest, HttpResponse
 from django.views.decorators.http import require_GET, require_POST
 
-from TahrirBackend.models import EnToFaTranslation, FaToEnTranslation, Comment
+from TahrirBackend.models import EnToFaTranslation, FaToEnTranslation, Comment, PersianWord, EnglishWord
+
+logger = logging.getLogger(__name__)
 
 
 def _build_translation_response(translations):
@@ -53,10 +57,18 @@ def create_translation(request):
 
     submitter_name = request.POST.get('name')
     if lang == 'en':
-        word = word.lower()
+        try:
+            word = EnglishWord.objects.get(word=word.lower())
+            translation = PersianWord.objects.get(word=translation)
+        except (EnglishWord.DoesNotExist, PersianWord.DoesNotExist):
+            return HttpResponseNotFound("Word/Translation pair not found")
         EnToFaTranslation.objects.create(word=word, translation=translation, submitter_name=submitter_name)
     elif lang == 'fa':
-        translation = translation.lower()
+        try:
+            word = PersianWord.objects.get(word=word)
+            translation = EnglishWord.objects.get(word=translation.lower())
+        except (EnglishWord.DoesNotExist, PersianWord.DoesNotExist):
+            return HttpResponseNotFound("Word/Translation pair not found")
         FaToEnTranslation.objects.create(word=word, translation=translation, submitter_name=submitter_name)
     else:
         return HttpResponseBadRequest('Invalid "lang" param')
