@@ -2,6 +2,7 @@ from django.contrib.auth.models import User
 from django.contrib.contenttypes.fields import GenericForeignKey, GenericRelation
 from django.contrib.contenttypes.models import ContentType
 from django.db import models
+from django.core.exceptions import ValidationError
 
 
 class PersianWord(models.Model):
@@ -26,6 +27,10 @@ class Comment(models.Model):
     object_id = models.PositiveIntegerField()
     translation = GenericForeignKey('content_type', 'object_id')
 
+    def save(self, *args, **kwargs):
+        if self.rating > 5 or self.rating < 1:
+            raise ValidationError('Rating outside valid range.')
+        super(Comment, self).save(*args, **kwargs)
 
 class FaToEnTranslation(models.Model):
     word = models.ForeignKey(PersianWord, on_delete=models.CASCADE)

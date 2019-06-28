@@ -105,7 +105,7 @@ def create_comment(request):
     except (EnToFaTranslation.DoesNotExist, FaToEnTranslation.DoesNotExist):
         return HttpResponseNotFound('Translation not found')
 
-    name, comment, rating = request.POST.get('name'), request.POST.get('comment'), require_POST.get('rating')
+    name, comment, rating = request.POST.get('name'), request.POST.get('comment'), request.POST.get('rating')
     if not name or not comment or not rating:
         return HttpResponseBadRequest('Parameters "name", "comment" and "rating" not provided correctly')
 
