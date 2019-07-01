@@ -33,7 +33,7 @@ def echo(request):
     elif request.method == 'POST':
         return JsonResponse(request.POST)
     else:
-        return JsonResponse({})
+        return JsonResponse({'Not valid!'})
 
 
 @require_GET

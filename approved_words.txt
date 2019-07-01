@@ -1,0 +1,1696 @@
+A-GPS:ساموجی 
+AAC:کدپی 
+ALO:رایک 
+API:م. ب. ک. 
+AR 3:واب 1
+ASP 3:رُخک
+abstraction 1:انتزاع
+accelerometer:شتاب‌سنج
+acceptance test:آزمون پذیرش
+access 1:دسترسی 1
+access contention:هم‌گیری دسترسی
+access control:واپایش دسترسی
+access control method:روش واپایش دسترسی
+access level:سطح دسترسی
+access list:فهرست دسترسی
+access method:روش دسترسی
+access protection:حفاظت دسترسی
+access right:حق دستیابی
+accessware:افزار دستیابی
+account 1:حساب
+accumulator:انباشتگر
+acknowledge:تأیید کردن
+acknowledgement:تأیید 1
+ACK:تأیید 1
+active attack:حملۀ فعال
+active database:پایگاه‌دادة فعال
+active server page:صفحۀ فعال کارساز
+actuation:فعالگری
+actuator:فعالگر 1
+actuator subsystem:زیرسامانۀ فعالگری
+acyclic:ناچرخه‏ای
+ad hoc network:شبکة موردی
+adaptive maintenance:نگهداری وفقی
+add-in:درافزا 1
+add-on 2:برافزا
+adder:جمع‏زن
+address:نشانی
+address field:جای درج نشانی
+champ de l'adresse (fr.) :جای درج نشانی
+address spoofing:جعل نشانی
+spoofing 2:جعل نشانی
+addressability:نشانی‏پذیری
+addressee:مخاطب 1
+addressing:نشانی‏دهی
+administrative security:امنیت اداری
+advanced audio coding:صوت‌کدگذاری پیشرفته
+adware:آگهی‏افزار
+advertising-supported software:آگهی‏افزار
+affective computing:رایانش احساسات
+age verification system:سن‌آزما
+adult verification system:سن‌آزما
+AVS:سن‌آزما
+age gate:سن‌آزما
+aggregate 1:انبوهشی
+aggregate class:ردۀ انبوهشی
+aggregate data:داده‌های انبوهشی
+aggregate function:تابع انبوهشی
+aggregation 1:انبوهش
+align:تراز کردن 1
+alignment 1:تراز 1
+all-in-one computer:رایانة یک‌تکه
+all-purpose register:ثبّات همه‏منظوره
+allocatable:تخصیص‌پذیر
+allocation:تخصیص
+allocation unit:واحد تخصیص
+alpha test:آزمون الف
+alt key:کلید دگرساز
+alt:کلید دگرساز
+analytic database:پایگاه‌دادة تحلیلی
+anisochronous:ناهمگام
+anonymous FTP:قاپ بی‏نام
+anti-spam:پادهرز
+anti-virus:ضدِویروس
+anti-virus software:برنامۀ ضدویروس
+antialiasing:صاف‌سازی
+dithering:صاف‌سازی
+antialiasing filter:پالایۀ صاف‌سازی
+antialiasing technique:فن صاف‌سازی
+app:برنامه ۱ 
+applet:برنامک
+appliance:وسیلۀ برقی
+Application Service Provider:رسانندۀ خدمات کاربردی
+application package:بستۀ کاربردی
+application program:برنامۀ کاربردی
+application:برنامۀ کاربردی
+application program interface:میانای برنامۀ کاربردی
+application programming interface:میانای برنامه‌سازی کاربردی
+arithmetic-logic unit:واحد حساب و منطق
+ALU:واحد حساب و منطق
+array:آرایه 1
+array processor:آرایه‏پرداز
+artificial intelligence:هوش مصنوعی
+AI 3:هوش مصنوعی
+machine intelligence:هوش مصنوعی
+assemble:هم‌گذاری کردن
+assembler:هم‌گذار
+assembly 2:هم‌گذاری
+assembly language:زبان هم‌گذاری
+assembly language program:برنامه به زبان هم‌گذاری
+assembly program:برنامۀ هم‌گذاری
+assign 1:انتصاب
+assignment:نسبت‌دهی
+assignment statement:حکم نسبت‌دهی
+assisted-GPS:سامانة موقعیت‌یاب جهانی یاری‌شده
+associative memory:حافظۀ تداعی‌گر
+associative storage:حافظۀ تداعی‌گر
+assurance:حصول اطمینان
+asymmetric encryption :رمزبندی دوکلیده
+asynchronous:ناهم‌زمان
+asynchronous learning:یادگیری ناهم‌زمان
+attachment 1:اتصال 2
+attack 1:تک 1
+AuC/AC 3:ماس
+augmented reality:واقعیت برافزوده
+enhanced reality:واقعیت برافزوده
+authentication:اصالت‏سنجی
+authentication centre:مرکز اصالت‌سنجی
+authentication token:نمودافزار اصالت‌سنجی
+authorization:اجازه
+authorized user:کاربر مُجاز
+automation:خودکارسازی
+automatism:خودکاری 2
+automaton:خودکاره
+autonomic computing:رایانش خودگردان
+Avatar:چهرک
+BCI:میارام 
+back end:مرحلۀ پسین
+back office :پس‌خان
+back office operations:عملیات پس‌خان
+back up 1:پشتیبان 2
+backbone network:مازه
+backbone:مازه
+backdoor:در پشتی
+trapdoor:در پشتی
+backslash:واکج‌خط
+reverse slash:واکج‌خط
+backspace key:کلید پس‏بَر
+backspace:کلید پس‏بَر
+backward compatibility:همسازی با قبل
+downward compatibility:همسازی با قبل
+baitware:طعمه‏افزار
+banner 2:بَرنما
+barcode reader:رمزینه‌خوان
+barcode scanner:رمزینه‌خوان
+basic authentication:اصالت‌سنجی پایه
+batch:دسته 1
+batch file:پروندۀ دسته‏ای
+batch processing:پردازش دسته‏ای
+batch program:برنامۀ دسته‏ای
+benchmark 1:محک
+benchmarking:محک‏زنی
+beta test:آزمون ب
+binary:دوتایی 1
+biochip:زیست‏تراشه
+biometric:زیست‏سنجشی
+biometrics 1:زیست‏سنجه
+bioprinting:زیست‌چاپ
+bit:بیت
+bit rate:نرخ بیت
+black-box testing:آزمون دربسته
+black hat:کلاه‌سیاه
+black webber:وب‏خلافکار
+blended learning:یادگیری تلفیقی
+blended learning system:نظام یادگیری تلفیقی
+blind carbon copy:رونوشت محرمانه
+bcc:رونوشت محرمانه
+blinking 1:چشمک‏زن 1
+bloatware 1:زائدافزار
+blook:وب‌کتاب
+Bluetooth:دندان‏آبی
+bookmark 1:چوق‌الف
+book marker:چوق‌الف
+bookmarking:نشانک‏گذاری
+boot 1:راه‏اندازی 1
+bootstrap:راه‏اندازی 1
+bootable disk:دیسک راه‏انداز
+bottom-up design:طراحی پایین به بالا
+bounce:واگشت 1
+brain-computer interface:میانای مغز‌ـ رایانه
+mind-machine interface:میانای مغز‌ـ رایانه
+MMI:میانای مغز‌ـ رایانه
+direct neural interface:میانای مغز‌ـ رایانه
+DNI:میانای مغز‌ـ رایانه
+synthetic telepathy interface:میانای مغز‌ـ رایانه
+STI:میانای مغز‌ـ رایانه
+brain-machine interface:میانای مغز‌ـ رایانه
+BMI 1:میانای مغز‌ـ رایانه
+branch 1:شاخه 1
+branch address:نشانی شاخه
+branch and jump:شاخه‌گزینی و پرش
+branch instruction:دستور شاخه‌گزینی
+branch point 1:نقطۀ شاخگی
+junction point:نقطۀ شاخگی
+branching 1:انشعاب
+breakpoint:نقطۀ گسست
+browser:مرورگر
+buffer 1:بافر
+buffer under-run:کم‏آوردن میان‌گیر
+buffered:میان‌گیردار
+buffering:میان‌گیری
+bug 1:اِشکال
+built-in appalication:برنامة کاربردی توکار
+burn:سوزاندن
+bus:گذرگاه 1
+bus topology:هم‏بندی خطی
+business-to-business:شرکت‌به‌شرکت
+B2B:شرکت‌به‌شرکت
+business-to-consumer:شرکت‌به‌فرد
+B2C:شرکت‌به‌فرد
+business-to-employee:شرکت‌به‌کارمند
+B2E:شرکت‌به‌کارمند
+business-to-government:شرکت‌به‌دولت
+B2G:شرکت‌به‌دولت
+business-to-machines:شرکت‌به‌دستگاه
+B2M:شرکت‌به‌دستگاه
+business analytics:واکاوش کسب‌وکار
+BA:واکاوش کسب‌وکار
+business intelligence:هوش کسب‏وکار
+BI:هوش کسب‏وکار
+butterfly network:شبکۀ پروانه‌ای
+byte:بایت
+CAD/ CAM:طراحی و ساخت رایانه‏ای
+CASE tool:ابزار مهندسی نرم‏افزار با رایانه
+CBT:آراب 
+CDP 1:داپ 
+CaaS:خارا 
+cache memory:حافظۀ نهان
+cache 1:حافظۀ نهان
+call:تماس‌ 1
+call forwarding:خدمات هدایت تماس
+campus area network:شبکۀ پردیسی
+CAN:شبکۀ پردیسی
+capacitive touch screen:صفحة لمسی خازنی
+caps lock key:کلید قفل تبدیل
+caps lock:کلید قفل تبدیل
+carbon copy:رونوشت 1
+cc:رونوشت 1
+card reader:کارت‌خوان 1
+CR 1:کارت‌خوان 1
+cascade:آبشاره
+cascade network:شبکۀ آبشاره‏ای
+cascading:آبشاره‏سازی
+cascading menue:گزینگان آبشاره‏ای
+cascading windows :پنجره‏های آبشاره‏ای
+case 1:حالت 2
+cash drawer:دخل
+cash register:صندوق
+central processing unit:واحد پردازش مرکزی
+CPU:واحد پردازش مرکزی
+centre-aligned:میان‏تراز
+certificate:گواهی
+digital certificate:گواهی
+certificate authority 1:صادرکنندۀ گواهی
+CA 3:صادرکنندۀ گواهی
+character string:رشته‏نویسه
+chat 1:گپ
+chatting:گپ‏زنی
+chief information officer:کارشناس ارشد اطلاعات
+CIO:کارشناس ارشد اطلاعات
+chief source of information:منبع اصلی اطلاعات
+chip 1:تراشه
+circuit board:تخته‏مدار
+board:تخته‏مدار
+citizen-to-government:شهروندبه‌دولت
+C2G:شهروندبه‌دولت
+cladding 1:روکش‏کاری 1
+classified data:داده‏های رده‏بندی‏شده
+cleansed data:داده‏های پیراسته
+clear data:دادۀ روشن
+click 1:تلیک
+clickjacking:کلیک‌ربایی
+user interface redress attack:کلیک‌ربایی
+UI redress attack:کلیک‌ربایی
+UI redressing:کلیک‌ربایی
+clickjack attack:کلیک‌ربایی
+client-server:کارخواه ـ کارساز
+clipboard:بُریده‏دان
+close 1:بستن
+cloud:اَبر
+cloud-oriented architecture:معماری اَبرگرا
+COA 2:معماری اَبرگرا
+cloud-to-cloud migration:کوچاندن اَبربه‌اَبر
+cloud backup:پشتیبان‌گیری اَبری
+cloud broker:کارگزار اَبر
+cloud bursting:فراپاشی اَبری
+cloud communications:ارتباطات اَبری
+cloud computing:رایانش اَبری
+CC:رایانش اَبری
+cloud configuration:پیکربندی اَبر
+cloud controller:واپایشگر اَبر
+cloud core:هستۀ اَبر 1
+cloud data management interface:میانای مدیریت داده‌های اَبر
+cloud ecosystem:بوم‌سازگان اَبری
+cloud integration platform:بن‌سازۀ یکپارچه‌سازی اَبر
+cloud migration:کوچاندن به اَبر
+cloud monitoring:پایشگری اَبر
+cloud operating system:سامانۀ عامل اَبر
+COS:سامانۀ عامل اَبر
+cloud portability:انتقال‌پذیری اَبر
+cloud provider:فراهم‌ساز اَبر
+cloud provisioning:فراهم‌سازی اَبر
+cloud service migration:کوچاندن به خدمات اَبری
+cloud services:خدمات اَبری 1
+cloud sourcing:اَبرسپاری
+cloudware:اَبرافزار
+clustered data:داده‏های خوشه‏بندی‏شده
+coconversion of electricity:واگردانی برق
+code 1 :رمز 2
+coder 2:کُدگذار
+coding 2:کُدگذاری
+cognitive computing:رایانش شناختی
+cognitive system:سامانة شناختی
+collected data:داده‏های گردآوری‏شده
+command:اقدامات ضدِ فرماندهی و نظارت و ارتباطات
+control:اقدامات ضدِ فرماندهی و نظارت و ارتباطات
+and communications countermeasures:اقدامات ضدِ فرماندهی و نظارت و ارتباطات
+command-line interface:واسط نوشتاری
+CLI:واسط نوشتاری
+command button:دکمۀ فرمان
+command processing:پردازش فرمان
+commercial software:نرم‏افزار تجارتی
+shrinkware:نرم‏افزار تجارتی
+community cloud:اَبر جمعی
+compact data:داده‏های چکیده
+compatibility 1:سازگاری 2
+compatible:همساز
+compilation 1:ترجمه 1
+compile:ترجمه کردن
+compiler 1:گردآورنده
+complex-event processing:رویدادپردازی ترکیبی
+CEP:رویدادپردازی ترکیبی
+composability:ترکیب‌پذیری
+compressed data:داده‏های فشرده
+compression:تراکم 2
+computational linguistics:زبان‌شناسی رایانشی
+natural language processing:پردازش زبان طبیعی
+computer:رایانه
+computer-aided design:طراحی رایانه‏ای
+CAD:طراحی رایانه‏ای
+computer-aided manufacturing:ساخت رایانه‏ای
+CAM 2:ساخت رایانه‏ای
+computer-aided software engineering:مهندسی نرم‏افزار با رایانه
+CASE:مهندسی نرم‏افزار با رایانه
+computer-based trainee:کارآموز رایانه‏بنیاد
+computer-based training:آموزش رایانه‏بنیاد
+computer architecture:معماری رایانه
+architecture 2:معماری رایانه
+computer crime:جُرم رایانه‏ای 1
+computer fraud:تقلب رایانه‏ای
+computer guru:خدای رایانه
+computer literacy:سواد رایانه
+computer network:شبکۀ رایانه‏ای
+computer programming:برنامه‏سازی رایانه‏ای
+computer system:سامانۀ رایانه
+computing:رایانش
+computing as a service:خدمات اَبری رایانش
+computing device:افزارۀ رایانش
+computing relay:افزارۀ رایانش
+computing inspired by nature:رایانش طبیعت‌نگر
+computing speed:سرعت رایانش
+computing with symbols:رایانش نمادبنیاد
+computing with words:رایانش واژه‌بنیاد
+conceptual design:طراحی مفهومی
+conceptual system design:طراحی مفهومی سامانه
+concurrency:هم‌رَوی
+concurrency control:واپایش هم‌رَوی
+concurrent 1:همرس
+concurrent processing:پردازش هم‌رو
+configuration:پیکربندی
+configuration management:مدیریت پیکربندی
+CM 3:مدیریت پیکربندی
+configured:پیکربندی‏شده
+connection:اتصال 3
+connectivity:اتصال‏دهندگی
+consistency:قوام
+consistent:همخوان 2
+console 1:پیشانه 2
+consumer-to-business:فردبه‌شرکت
+C2B:فردبه‌شرکت
+consumer-to-consumer:فردبه‌فرد
+C2C:فردبه‌فرد
+content analytics:واکاوش محتوا
+contention:هم‌گیری
+context-aware computing:رایانش بافت‌آگاه
+continuous data protection:داده‌بانی پیوسته
+control key:کلید مهار
+control 1:کلید مهار
+control panel:فرمانگاه
+conversion 2:تبدیل 3
+converted data:داده‏های برگردان‏شده
+cookie 1:کلوچک 1
+coprocessor:هم‏پرداز
+copy 1:رونوشت 2
+copy and paste:بردار و بچسبان
+corrective maintenance:نگهداری تصحیحی
+remedial maintenance:نگهداری تصحیحی
+counter information:ضدِاطلاعات
+contra information:ضدِاطلاعات
+anti-informatio:ضدِاطلاعات
+courseware:درس‏افزار
+cracked 1:تَرَک‌خورده
+cracker 1:تُردک
+cracking 1:تَرَک‌خوردگی
+crash 1:ازکارافتادگی
+credential:اعتبارنامه
+crippleware:ناقص‏افزار
+cryptogram 1:رمزنگاشت 1
+cryptographer:رمزنگار
+cryptography:رمزنگاری
+cryptological:رمزشناختی
+cryptologist:رمزشناس
+cryptology:رمزشناسی 1
+current awarenes:آگاهی‌رسانی جاری
+cursor:مکان‏نما
+customer display:نمایشگر مشتری
+customization:سفارشی‏سازی
+customize:سفارشی کردن
+customized:سفارشی
+cut 1:برش 1
+cut and paste:ببُر و بچسبان
+cyber-squatting:رایااحتکار
+cyberbash:زد‌وخورد رایانه‌ای
+cyberbullying:ارعاب رایانه‌ای
+cyberbunny:لاف‌زن رایانه‌ای
+cyberburger joint :رایابِرگری
+cyberbusiness:رایاشرکت
+cybercard:رایاکارت
+e-card:رایاکارت
+cyberchat:رایاگپ
+cyberchatroom:رایاگپ‌سرا
+cyberchondriac:رایابیم
+cybercitizen:رایاوند
+cybercrime:جُرم رایانه‌ای 2
+cybercriminal:مجرم رایانه‌ای
+cyberculture:فرهنگ رایانه‌ای
+cyberethnography:رایامردم‌نگاری
+cyberextortion:باج‌گیری رایانه‌ای
+cyberextortionist:باج‌گیر رایانه‌ای
+cyberforensics:رایانش قانونی
+computer forensics:رایانش قانونی
+cyberglove:دستکش رایانه‌ای
+cyberlife:رایاجهان
+cybernaut:رایانورد
+cybernetic:رایانیکی
+cyberneticist:رایانیک‌دان
+cybernetics:دانش رایانیک
+cyberphobia:رایاهراسی
+cyberpicketing:اعتراض رایانه‌ای
+cyberprise:رایابنگاه
+cyberrevolution:انقلاب رایانه‌ای
+cybersecurity:امنیت رایانه‌ای
+cybershopping:خرید رایانه‌ای
+e-shopping:خرید رایانه‌ای
+cyberspace:رایاسپهر
+cyberstalker:آزارگر رایانه‌ای
+cyberstalking:رایاآزاری
+cybersurgery:رایاجراحی
+cyberterrorism:وحشت‌افکنی رایانه‌ای
+cyberterror:وحشت‌افکنی رایانه‌ای
+cyberterrorist:وحشت‌افکن رایانه‌ای
+cybervandalism:خرابکاری رایانه‌ای
+cyberware:رایاافزار
+cyberwoozling:دستبرد رایانه‌ای
+cyborg:اندامگان رایانه‌ای
+CYBernetic ORGanism:اندامگان رایانه‌ای
+DB:پادا 
+DBMS:سامپاد 
+DDMS:سامِدان
+DRAM:حافظۀ پویا 
+3d printing:چاپ‌ سه‌بعدی
+additive manufacturing:چاپ‌ سه‌بعدی
+AM:چاپ‌ سه‌بعدی
+3d scanner:پویشگر سه‌بعدی
+DaaS 1:خاد 
+data:داده
+data administration:سرپرستی داده‏ها
+data administrator:سرپرست داده‏ها
+data analysis:تحلیل داده‌ها
+data as a service:خدمات اَبری داده
+data centre:مرکز داده‏ها
+data classification:رده‏بندی داده‏ها
+data classifier:رده‏بند داده‏ها
+data cleansing:داده‏پیرایی
+data clustering:خوشه‏بندی داده‏ها
+data collection:گردآوری داده‏ها ۱
+data communication:ارتباط داده‏ای
+data communication equipment:تجهیزات ارتباط داده‏ای
+data communication network:شبکۀ ارتباط داده‏ای
+data communications:ارتباطات داده‏ای
+data compaction:چکیده‏سازی داده‏ها
+data compression:فشرده‏سازی داده‏ها
+data conversion:برگردانی داده‏ها
+data custodian:داده‏بان
+data custodianship:داده‏بانی
+data deciphering:پوشیده‌خوانی داده‌ها
+deciphering:پوشیده‌خوانی، واپوشیده‌سازی
+data decryption:رمزگشایی داده‌ها
+decryption:رمزگشایی داده‌ها
+data dictionary:داده‏نامه 2
+data dictionary management system:سامانۀ مدیریت داده‏نامه
+data encryption standard:استاندارد رمزگذاری داده‌ها
+DES:استاندارد رمزگذاری داده‌ها
+data entry:واردسازی داده‏ها
+data exploration:اکتشاف داده‏ها
+data explorer:کاشف داده‏ها
+data extraction:استخراج داده‏ها
+data file:پروندۀ داده‏ها
+data filing:پرونده‏بندی داده‏ها
+data flow:داده‏شار
+data flow diagram:نمودار داده‏شار
+DFD 2:نمودار داده‏شار
+data fusion:همجوشی داده‏ها
+data generation:داده‏زایی
+data grouping:گروه‏بندی داده‏ها
+data interpretation:تفسیر داده‏ها
+data interpreter:مفسّر داده‏ها
+data management:مدیریت داده‏ها
+data manager:مدیر داده‏ها
+data mart:داده‏گاه
+data message:داده‏پیام
+data message integrity:یکپارچگی داده‏پیام
+data migration:کوچاندن داده
+database migration:کوچاندن داده
+data mining:داده‌کاوی
+data protection:حفاظت داده‏ها
+data ranking:رتبه‏بندی داده‏ها
+data replication:همتاسازی داده‏ای
+data representation:بازنمود داده‏ها
+data sectioning:بخش‏بندی داده‏ها
+data security:امنیت داده
+data source:سرچشمۀ داده‏ها
+data store:مخزن داده‏ها
+data stream:جریان داده
+data streaming:جاری‏سازی داده
+data structure:ساختار داده‏ها
+data structuring:ساختاربندی داده‏ها
+data subject:موضوع داده‏ها
+data tracking:ردگیری داده‏ها
+data transfer:داده‏رسانی
+data transmission:انتقال داده‏ها
+data visualization:دیداری‏سازی داده‏ها
+data warehouse:داده‏انبار
+data warehousing:داده‏انباری
+database:پایگاه‌داده
+database administration :سرپرستی دادگان
+database administrator:سرپرست دادگان
+database index:نمایة پایگاه‌داده
+database management:مدیریت دادگان
+database management system:سامانة مدیریت پایگاه‌داده
+database manager:مدیر دادگان
+database publishing:نشر دادگان
+database schema:طرحوارة پایگاه‌داده
+database server:کارساز دادگان
+dataset:مجموعه‌داده
+deadlock:بن‏بست 2
+debug:اِشکال‏زدایی کردن
+debugger:اِشکال‏زدا
+debugging 1:اِشکال‏زدایی
+decipher:رمزگشایی کردن
+decrypt:رمزگشایی کردن
+deciphered:پوشیده‌خوانی‌شده
+decision support system:سامانۀ تصمیم‏یار
+DSS:سامانۀ تصمیم‏یار
+decode:کُدگشایی کردن
+decoded:کُدگشایی‏شده
+decoder:کُدگشا
+decoding:کُدگشایی
+decrypted:رمزگشایی‌شده
+delay:تأخیر 1
+delete key:کلید حذف
+delete:کلید حذف
+demoware:نمودافزار
+dependability:اتکاپذیری
+dependable:اتکاپذیر
+deployment model:الگوی کاراندازی
+design pattern:الگوی طراحی
+design specification:مشخصات طراحی
+desktop as a service:خدمات اَبری میز
+desktop computer:رایانۀ رومیزی
+desktop publishing:نشر رومیزی
+destruction:تخریب 2
+device:افزاره
+device-aware:افزاره‌آگاه
+device awareness:افزاره‌آگاهی
+device driver:افزاره‏ران
+device manager:افزاره‏گردان
+dialler/ dialer:شماره‏گیر
+dialler program:برنامۀ شماره‏گیر
+dialling/ dialing:شماره‏گیری 1
+differential backup:پشتیبان‌گیری تفاضلی
+digital:رقمی
+digital inclusion:شکاف‌زدایی رقمی
+digital object:برنمود رقمی
+digital object identifier:شناسانۀ برنمود رقمی
+DOI:شناسانۀ برنمود رقمی
+digitization:رقمی‏سازی
+digitize:رقمی کردن
+digitized:رقمی‏شده
+digitizer:رقمی‏ساز
+disinformation:دُژاطلاعات
+disinformer:دُژاطلاع‌رسان
+disinforming :دُژاطلاع‌رسانی
+display screen:پردۀ نمایش
+screen 4:پردۀ نمایش
+distance contract:قرارداد از دور
+distance learner:یادگیرنده از راه دور
+distance learning:یادگیری از راه دور
+distance training:یادگیری از راه دور
+distance learning system:نظام آموزش از راه دور
+distributed computing:رایانش توزیع‌شده
+ distributed database:پایگاه‌دادة توزیعی
+distributed operating system:سامانۀ عامل توزیعی
+distributed system:سامانۀ توزیعی
+distributed transaction database:پایگاه‌دادة تراکنشی توزیع‌شده
+domain name:نام دامنه
+domain name registration:ثبت نام دامنه
+domain name system:سامانۀ نام دامنه
+domain name server:سامانۀ نام دامنه
+domain name service:سامانۀ نام دامنه
+donateware:بخشش‏افزار
+donationware:بخشش‏افزار
+dot matrix printer:چاپگر سوزنی
+down arrow key:کلید پایین‏بَر
+down arrow:کلید پایین‏بَر
+downtime 1:زمان اَکار
+downward:فروسو
+draft:پیش‏نویس
+drive 1:رانه
+driver 1:پیشران
+driving force:پیشران
+dumb terminal:پایانۀ غیرهوشمند
+dump:برگرفت
+storage snapshot:برگرفت
+Dynamic Random Access Memory:حافظۀ دستیابی مستقیم پویا
+e-:ای‌ ـ 
+e-bill:ای‌‌ ـ‌‌ صورت‌حساب 
+e-book:رایاکتاب
+e-brokerage:ای‌‌ ـ‌‌ ‌کارگزاری 
+e-business:کسب‌وکار الکترونیکی
+e-catalogue:ای‌‌ ـ‌‌ ‌کالانما 
+e-cheque:ای‌ ـ ‌چک 
+e-copy:ای‌ ـ‌‌‌ رونوشت 
+e-corporation:ای‌‌ ـ‌ ‌مؤسسه 
+e-discovery:ای‌ ـ ‌‌اکتشاف 
+e-government:دولت الکترونیکی
+digital government:دولت الکترونیکی
+online government:دولت الکترونیکی
+Internet-based government:دولت الکترونیکی
+e-hub:ای‌ ـ‌ بازار 
+e-marketplace:ای‌ ـ‌ بازار 
+e-market:ای‌ ـ‌ بازار 
+e-inclusion:ای‌‌ ـ‌ ‌شکاف‌زدایی 
+e-information:ای‌ ـ ‌اطلاعات 
+e-interview:ای‌‌ ـ‌ ‌مصاحبه 
+e-kiosk:ای‌ ـ ‌‌باجه 
+e-marketing:ای‌ ـ‌ بازاریابی 
+e-medicine:ای‌ ـ‌ پزشکی 
+e-mentoring:ای‌‌ ـ‌‌ هدایت 
+e-money:ای- پول
+e-cash:ای- پول
+e-newsletter:خبرنامۀ الکترونیکی
+e-bulletin:خبرنامۀ الکترونیکی
+e-paper:ای‌‌ ـ‌‌‌ ‌کاغذ 
+e-payment:ای‌ ـ‌ پرداخت 
+e-procurement:ای‌ ـ‌ تدارکات 
+e-security:ای‌ ـ‌ امنیت 
+e-services:ای‌ ـ ‌‌خدمات 
+e-support:ای‌ ـ‌ پشتیبانی 
+e-ticket:ای‌ ـ‌ بلیت 
+e-voting:ای‌ ـ‌ رأی‌گیری 
+e-waste:ای‌ ـ‌ پسماند 
+edit:ویرایش 1
+editing 1:تدوین
+editor 1:تدوینگر
+effective:اثربخش
+effectiveness:اثربخشی 1
+efficiency 1:اقامتگاه آشپزخانه‌دار
+efficient:کارا
+electronic:الکترونیکی
+electronic bill:صورت‌حساب الکترونیکی
+electronic brokerage:کارگزاری الکترونیکی
+electronic catalogue:کالانمای الکترونیکی
+electronic cheque:چک الکترونیکی
+electronic commerce:تجارت الکترونیکی
+e-commerce:تجارت الکترونیکی
+electronic contact centre:مرکز تماس الکترونیکی
+electronic call centre:مرکز تماس الکترونیکی
+e-contact centre:مرکز تماس الکترونیکی
+electronic copy:رونوشت الکترونیکی
+electronic corporation:مؤسسۀ الکترونیکی
+electronic cycling:بازیافت قطعات الکترونیکی
+e-cycling:بازیافت قطعات الکترونیکی
+electronic democracy:مردم‌سالاری الکترونیکی
+e-democracy:مردم‌سالاری الکترونیکی
+electronic discovery:اکتشاف الکترونیکی
+electronic filing:پرونده‌بندی الکترونیکی
+e-filing:پرونده‌بندی الکترونیکی
+electronic hub:بازار الکترونیکی
+electronic inclusion:شکاف‌زدایی الکترونیکی
+electronic information:اطلاعات الکترونیکی
+electronic interview:مصاحبۀ الکترونیکی
+electronic kiosk:باجۀ الکترونیکی
+electronic marketing:بازاریابی الکترونیکی
+electronic medicine:پزشکی الکترونیکی
+electronic mentoring:هدایت الکترونیکی
+electronic money:پول الکترونیکی
+electronic cash:پول الکترونیکی
+cybermoney:پول الکترونیکی
+cybercash:پول الکترونیکی
+DigiCash:پول الکترونیکی
+digital money:پول الکترونیکی
+digital cash:پول الکترونیکی
+electronic nose:بینی الکترونیکی
+e-nose:بینی الکترونیکی
+electronic outsourcing:برون‌سپاری الکترونیکی
+e-outsourcing:برون‌سپاری الکترونیکی
+electronic paper:کاغذ الکترونیکی
+electronic payment:پرداخت الکترونیکی
+electronic postage:هزینۀ پست الکترونیکی
+e-postage:هزینۀ پست الکترونیکی
+electronic procurement:تدارکات الکترونیکی
+electronic purse:کیف پول الکترونیکی
+e-purse:کیف پول الکترونیکی
+electronic wallet:کیف پول الکترونیکی
+e-wallet:کیف پول الکترونیکی
+digital wallet:کیف پول الکترونیکی
+electronic security:امنیت الکترونیکی
+electronic services:خدمات الکترونیکی
+electronic signature:امضای الکترونیکی
+e-signature:امضای الکترونیکی
+electronic support:پشتیبانی الکترونیکی
+electronic tailer:خرده‌فروش الکترونیکی
+e-tailer:خرده‌فروش الکترونیکی
+electronic tailing/ electronic tail:خرده‌فروشی الکترونیکی
+e-tailing/ e-tail:خرده‌فروشی الکترونیکی
+electronic ticket:بلیت الکترونیکی
+electronic voting:رأی‌گیری الکترونیکی
+electronic waste:پسماند الکترونیکی
+emoticon:شکلک
+smiley:شکلک
+smilie:شکلک
+encipher:رمزگذاری کردن
+encrypt:رمزگذاری کردن
+enciphered:رمزگذاری‌شده
+encrypted:رمزگذاری‌شده
+enciphered code:کد رمزگذاری‌شده‌
+enciphered data:دادۀ پوشیده
+enciphering:رمزگذاری‌
+encryption:رمزگذاری‌
+encode:کُدبندی کردن
+encoded:کُدبندی‏شده
+encoder:کُدبند
+coder 1:کُدبند
+encoding:کُدبندی
+coding 1:کُدبندی
+encrypted data:داده‌های رمز‌گذاری‌شده
+encrypted text:متن رمزگذاری‌شده
+encryption algorithm:رمزگذاری خوارزمی، رمزگذاری الگوریتمی
+end-user:کاربر نهایی
+end key:کلید پایان‏بَر
+end:کلید پایان‏بَر
+enter key:کلید ورود
+enter:کلید ورود
+entered data:داده‏های واردشده
+entity:هَستار
+escape key:کلید گریز
+escape:کلید گریز
+event processing:رویدادپردازی
+expert system:سامانۀ خبره
+exploit:بهره‏جو
+exploitation:بهره‏جویی
+export:برون‏بُرد
+external drive:رانۀ خارجی
+extracted data:داده‏های استخراجی
+extranet:برون‏نِت
+FTP site:قاپگاه
+false information:اطلاعات نادرست
+fault-tolerant system:سامانۀ عیب‏تاب
+favourites:پَسَندان
+feed 1:جارزن
+feed reader:خوانشگر جارزن
+feedback:بازخورد
+file transfer protocol 1:قاپ کردن
+FTP 1 :قاپ کردن
+firmware:ثابت‏افزار
+follower:دنبالگر
+font:قلم 2
+typeface:قلم 2
+footer:پَسایند 2
+format:قالب 2
+formatting:قالب‏بندی
+forward  1:پیش‏سو
+forward compatibility:همسازی با بَعد
+upward compatibility:همسازی با بَعد
+free software:نرم‏افزار آزاد
+freedom of information:آزادی اطلاعات
+FOI:آزادی اطلاعات
+freeware:رایگان‏افزار
+frequently-asked questions:پرسشگان
+FAQ:پرسشگان
+front end:مرحلۀ پیشین
+front office 1:پیش‌خان 2
+full-text database:پایگاه‌دادة تمام‌متن
+complete text database:پایگاه‌دادة تمام‌متن
+full screen:تمام‏پرده
+full system backup:پشتیبان‌گیری تمام‌سامانه
+image backup:پشتیبان‌گیری تمام‌سامانه
+function key:کلید کار
+function 3:کلید کار
+functional design :طراحی کارکردی
+functional interface:میانای کارکردی
+functional system design:طراحی کارکردی سامانه
+gadget:ابزارک
+gadgeteer:ابزارک‌ساز
+gadgetry:ابزارگان
+gadgety:ابزارک‌کار
+game console:پیشانۀ بازی
+gamification:بازی‌وارسازی
+geek:رایانه‏باز
+techno-geek:رایانه‏باز
+geographic database:پایگاه‌دادة مکانی
+geospatial database:پایگاه‌دادة مکانی
+spatial database:پایگاه‌دادة مکانی
+gesture control:واپایش ایمایی
+gesture recognition:بازشناسی ایما
+ghost 1:سایه 1
+ghost image:تصویر سایه
+global area network:شبکۀ جهانی
+GAN:شبکۀ جهانی
+go:برو
+government-to-business:دولت‌به‌شرکت
+G2B:دولت‌به‌شرکت
+government-to-citizen:دولت‌به‌شهروند
+G2C:دولت‌به‌شهروند
+government-to-employee:دولت‌به‌کارمند
+G2E:دولت‌به‌کارمند
+government-to-government:دولت‌به‌دولت
+G2G:دولت‌به‌دولت
+graphical user interface:واسط نگاره‏ای کاربر
+GUI:واسط نگاره‏ای کاربر
+grid computing:رایانش شبکه‌وار
+grouped data:داده‏های گروه‏بندی‏شده
+HTML text:متن زنگامی
+HaaS:خاسا 
+hack:رخنه کردن
+hacker:رخنه‏گر
+hacking:رخنه‏گری
+hacktivism:رخنه‌کنشگری
+hacktivist:رخنه‌کنشگر
+handsfree operation:کاربری دست‌آزاد
+hang:گیرکردن
+hardware:سخت‏افزار
+hardware as a service:خدمات اَبری سخت‌افزار
+header:سرایند
+help:کمک
+hibernate:خوابیدن
+hibernation 1:خواب
+sleep mode:خواب
+ hierarchical database:پایگاه‌دادة سلسله‌مراتبی
+hoax 1:کلک 1
+hoaxer:کلک‏زن
+home area network:شبکۀ خانگی
+HAN:شبکۀ خانگی
+home computer:رایانۀ خانگی
+home key:کلید آغازه
+home:کلید آغازه
+home page:آغازه 2
+honey pot:تله‌عسل
+horizontal scroll bar:نوار نَوَرد افقی
+horizontal scrolling:نَوَردش افقی
+host 2:میزبان
+hostageware:گروافزار
+hosted:میزبانی‏شده
+hosting:میزبانی
+hosting package:بستۀ میزبانی
+hot spot 1:چندرسانی اینترنت
+hub 1:قطب حمل‌ونقل
+human augmentation:برافزایش انسان
+human enhancement:برافزایش انسان
+hybrid cloud:اَبر ترکیبی
+hyper-threaded:پُرریسه
+hyper-threading:پُرریسگی
+hyperlink:اَبَرپیوند
+hypertext:اَبَرمتن
+hypertext markup language:زبان نشانه‏گذاری اَبَرمتنی
+HTML:زبان نشانه‏گذاری اَبَرمتنی
+ICS:هم‌رسانی 
+ICT:فنّاوری اطلاعات و ارتباطات
+IM worm:کرم پراف 
+IOT:چیزنت 
+IT:فنّاوری اطلاعات
+IaaS:خاز 2
+icon 1:شمایل
+implement:پیاده کردن 2
+implementation:پیاده‏سازی
+implementation plan:طرح پیاده‏سازی
+import:درون‏بُرد
+inbox:دریافتی
+inconsistency:ناهمخوانی
+inconsistent:ناهمخوان
+incremental backup:پشتیبان‌گیری فزاینده
+information:اطلاعات
+information age:عصر اطلاعات
+information and communication technology:فنّاوری اطلاعات و ارتباطات
+information architecture:معماری اطلاعات
+information articulation:رساسازی اطلاعات
+articulation of information:رساسازی اطلاعات
+information artifact:اطلاع‌افزار
+information ware:اطلاع‌افزار
+infoware:اطلاع‌افزار
+information asymmetry:نامتقارنی اطلاعاتی
+information behaviour:رفتار اطلاعاتی
+IB:رفتار اطلاعاتی
+information broker:واسطۀ اطلاعات
+information brokerage:واسطه‌گری اطلاعات
+information centre:مرکز اطلاعات
+information channel:مجرای اطلاعاتی
+information consultant:مشاور اطلاعاتی
+information design:طراحی اطلاعات
+information ecology:بوم‌شناسی اطلاعات
+information economics:اقتصاد اطلاعات
+economics of information:اقتصاد اطلاعات
+infonomics:اقتصاد اطلاعات
+information engineering:مهندسی اطلاعات
+information environment:محیط اطلاعاتی
+information environmentalism:محیط‌بانی اطلاعات
+information ethics:اخلاق اطلاعاتی
+ethics of information:اخلاق اطلاعاتی
+info-ethic:اخلاق اطلاعاتی
+information fatigue syndrome:نشانگان خستگی اطلاعاتی
+IFS:نشانگان خستگی اطلاعاتی
+information file:پروندۀ اطلاعات
+information foraging:اطلاع‌پالی
+information format:قالب اطلاعاتی
+information presentation:قالب اطلاعاتی
+information fusion:همجوشانی اطلاعات
+information gap:شکاف اطلاعاتی
+information divide:شکاف اطلاعاتی
+information gathering:گردآوری اطلاعات
+information gathering strategy:راهبرد گردآوری اطلاعات
+information goods:کالای اطلاعاتی
+information product:کالای اطلاعاتی
+information graphics:اطلاع‌نگاشت
+infographics:اطلاع‌نگاشت
+information handling:اطلاع‌آمایی
+information highway:بزرگراه اطلاعاتی
+information identifier:شناسانۀ اطلاعات
+information industry:صنعت اطلاعات
+information integration:یکپارچه‌سازی اطلاعات
+II:یکپارچه‌سازی اطلاعات
+information law:قوانین اطلاعات
+information literacy:سواد اطلاعاتی 
+IL:سواد اطلاعاتی 
+information skills:سواد اطلاعاتی 
+information management:مدیریت اطلاعات
+information need:نیاز اطلاعاتی
+information network:شبکۀ اطلاعات
+information officer:کارشناس اطلاعات
+information overload:سرریز اطلاعات
+information flood:سرریز اطلاعات
+information paralysis:فلج اطلاعاتی
+information pollution:آلودگی اطلاعات
+information privacy:حریم اطلاعاتی 
+data privacy:حریم اطلاعاتی 
+privacy of information:حریم اطلاعاتی 
+information provider:فراهم‌ساز اطلاعات
+IP 2:فراهم‌ساز اطلاعات
+information quality:کیفیت اطلاعات
+IQ 1:کیفیت اطلاعات
+information quality assessment:کیفیت‌سنجی اطلاعات
+information relevance:ربط اطلاعاتی
+information scent:سرنخ اطلاعاتی
+information cue:سرنخ اطلاعاتی
+information science:علم اطلاعات 
+information security:امنیت اطلاعات
+INFOSEC:امنیت اطلاعات
+information services:خدمات اطلاعاتی
+information source:منبع اطلاعاتی
+information resource:منبع اطلاعاتی
+information space:فضای اطلاعاتی
+information strategy:راهبرد اطلاعاتی
+information system:سامانۀ اطلاعاتی
+information technology:فنّاوری اطلاعات
+information theory:نظریۀ اطلاعات
+information use behaviour:رفتار کاربری اطلاعات
+information visualisation/ information visualization: دیداریسازی اطلاعات
+information wave:موج اطلاعاتی
+infrastructural:زیرساختی
+infrastructure:زیرساخت
+infrastructure as a service:خدمات اَبری زیرساخت
+ink-jet printer:چاپگر جوهرافشان
+input 1:درونداد
+input device:ورودی 2
+input 2:ورودی 2
+insert key:کلید درج
+insert 1:کلید درج
+instant message:پیام فوری
+instant messaging:پیام‏رسانی فوری
+instant messaging worm:کرم پیام‌رسانی فوری
+integrated:یکپارچه‏شده
+integration 1:انتگرال‏گیری
+integrity:یکپارچگی
+integrity test:آزمون یکپارچگی
+intelligent sensor:حسگر هوشمند
+intelligent terminal:پایانۀ هوشمند
+interface 1:میانا 1
+interfaced:باواسط
+interfacing:میاناسازی
+internal drive:رانۀ داخلی
+international computer driving licence:گواهینامۀ بین‏المللی کار با رایانه
+ICDL:گواهینامۀ بین‏المللی کار با رایانه
+internet:اینترنت
+Internet Message Access Protocol:قرارداد پیام‏گزینی
+IMAP:قرارداد پیام‏گزینی
+Internet Protocol:قرارداد اینترنت
+IP 3:قرارداد اینترنت
+Internet Service Provider:رسانندۀ خدمات اینترنتی
+ISP:رسانندۀ خدمات اینترنتی
+internet connection sharing:هم‌رسانی اینترنت
+internet of objects:اینترنت اشیا 
+internet of things:اینترنت چیزها
+internet telephony:تلفن اینترنتی
+internet worm:کِرم اینترنتی
+interoperability:هم‌کنش‏پذیری
+interoperable:هم‌کنش‏پذیر
+interoperation:هم‌کنشی
+interpret:تفسیر کردن
+interpretation 1:تفسیر 2
+interpreter:مفسّر
+interrupt:وقفه
+interrupt handling:وقفه‌گردانی
+interrupt handling routine:روال وقفه‌گردانی
+interrupt request:درخواست وقفه
+intranet:درون‏نِت
+isochronous:همگام
+isolation 2:جداسازی 1
+Joint Photographic Experts Group:نمادیس
+JPEG:نمادیس
+joystick:اهرمک
+jump:پرش
+KDD:ک.د.د
+key 2:شستی
+key logger:کلیدخوان
+key logging:کلیدخوانی
+keyboard 2:صفحه‌شستی
+keyboard layout:جانمایی صفحه‏کلید
+keypad:کلیدگان
+knowledge-based system:سامانۀ دانش‌بنیاد
+KBS:سامانۀ دانش‌بنیاد
+knowledge discovery in databases:کشف دانش در دادگان
+LSP:فرایاد
+laptop computer:رایانۀ کیفی
+laser printer:چاپگر لیزری
+learning objective:هدف یادگیری
+learning platform:سکوی یادگیری
+LP:سکوی یادگیری
+learning service provider:فراهم‏ساز خدمات یادگیری
+left-aligned:چپ‏تراز
+left arrow key:کلید چپ‏بَر
+left arrow:کلید چپ‏بَر
+legacy system:سامانۀ موروثی
+light pen:قلمِ نوری
+line printer:چاپگر سطری
+link 1:پیوند 7
+linkage 2:پیوندی
+linkage editor:ویراستار پیوندی
+linked list:فهرست پیوندی
+linker:پیونددِه
+linking:پیونددِهی
+liquid crystal display:نمایشگرِ بلورمایع
+LCD:نمایشگرِ بلورمایع
+liveware:زنده‏افزار
+wetware:زنده‏افزار
+meatware:زنده‏افزار
+jellyware:زنده‏افزار
+load 1:بار 2 
+load-balance:بارتراز کردن
+load-balanced:بارترازشده
+load-balancing:بارترازی
+loaded:بارشده
+loader 1:بارزن 2
+local area network:شبکۀ داخلی
+LAN:شبکۀ داخلی
+location based services:خدمات مکان‏مبنا
+log 1:ثبت کردن
+log off:ثبت خروج
+sign out:ثبت خروج
+log out:ثبت خروج
+log on:ثبت ورود
+sign in:ثبت ورود
+log in:ثبت ورود
+logging 1:بینه‏بَری
+harvesting:بینه‏بَری
+loop topology:هم‌بندی حلقه‌ای
+ring topology:هم‌بندی حلقه‌ای
+lossless compression:فشرده‌سازی بی‌اتلاف
+lossy compression:فشرده‌سازی بااتلاف
+irreversible compression:فشرده‌سازی بااتلاف
+lower case:پایینی
+m-learner:یادگیرندۀ سیار
+m-learning:یادگیری سیّار
+mobile learning:یادگیری سیّار
+MP3:آوا ـ 3
+Motion Picture Experts Group Laye 3:آوا ـ 3
+MVNO:باکاس 
+machine-to-machine communications:ارتباطات دستگاه‌به‌دستگاه
+M2M communications:ارتباطات دستگاه‌به‌دستگاه
+macro-ecology of information:کلان‌بوم‌شناسی اطلاعات
+mailbox 2:نامه‏دان
+mainframe computer:بزرگ‏رایانه
+malware:بدافزار
+malicious ware:بدافزار
+mass storage:ذخیره‏سازی انبوه
+matching 1:جورسازی
+maximization:بیشینه‏سازی
+maximize:بیشینه کردن
+memory allocation:تخصیص حافظه
+memory unit:واحد حافظه
+menu 1:صورت‏غذا 1
+menu-driven:گزینگانی
+menu bar:نوار گزینه
+mesh topology:هم‏بندی توری
+messenger:پیام‏رسان
+metadata:فراداده
+methodology:روشگان
+metropolitan area network:شبکۀ شهری
+MAN:شبکۀ شهری
+micro-ecology of information:خُرد‌بوم‌شناسی اطلاعات
+microchip:ریزتراشه
+microcomputer:ریزرایانه
+microprocessor:ریزپرداز
+middleware:میان‏افزار
+minicomputer:خُردرایانه
+minimization:کمینه‏سازی
+minimize:کمینه ‏کردن
+minimum configuration:پیکربندی کمینه
+mirror 1:آینه 1
+mirrored:آینه‏شده
+mirroring 1:آینه کردن 2
+misinformation :کژاطلاعات
+misinformer:کژاطلاع‌رسان
+misinforming:کژاطلاع‌رسانی
+mobile-governance:حاکمیت سیار
+m-governance:حاکمیت سیار
+mobile broadband router:مسیریاب فراخ‌باند سیار 
+mobile browser:مرورگر همراه
+mobile computing:رایانش همراه
+mobile hotspot:چندرسانی همراه
+mobile malware:بدافزار تلفن همراه
+mobile robot:روبات سیار
+mobile platfrom:روبات سیار
+mobile virtual network operator:بهره‌بردار شبکة مجازی سیار
+moblog:وب‏نوشت سیار
+moblogger:وب‏نویس سیار
+moblogging:وب‏نویسی سیار
+mobot:روباس 
+modem:مودم
+modulator-demodulator:مودم
+moderate:میان‌داری کردن
+moderated:بامیان‌دار
+moderation:میان‌داری
+moderator 1:کُندساز
+modular 2:پودمانی
+modularity 2:پودمانگی
+module 2:پودمان
+monitor:پایشگر
+monitoring 2:پایش
+motherboard:تخته‏مدار اصلی
+motion sensor:حسگر حرکت
+mouse:موشی
+mouse pad:زیرموشی
+Moving Picture Experts Group:نماوادیس
+Motion Picture Experts Group:نماوادیس
+MPEG:نماوادیس
+multi-tasking:چندوظیفگی
+multi-threaded:چندریسه
+multi-threading:چندریسگی
+multi task:چندوظیفه
+multiprocessing:چندپردازی
+NIC:ماش
+nagware:نِق‏افزار
+begware:نِق‏افزار
+annoyware:نِق‏افزار
+NLP:پردازش زبان طبیعی
+navigate:ناویدن
+navigation 2:ناوبَری
+navigation of information space:ناوش فضای اطلاعاتی
+navigator 1:ناوبر
+net neutrality:بی‌طرفی اینترنتی
+netizen:نت‌وند
+network 1:شبکه 3
+network computer:رایانۀ شبکه‏ای
+network computing:رایانش شبکه‌ای
+network information centre:مرکز اطلاعات شبکه
+network layer:لایۀ شبکه
+network topology:هم‌بندی شبکه
+new:نو
+node:گره 1
+non-proprietary software:نرم‏افزار غیرمالکیتی
+notebook computer:رایانۀ کتابی
+num lock key:کلید قفل اعداد
+num lock:کلید قفل اعداد
+OO languages:زبان‌های شی‏ءگرا
+OO programming:برنامه‏نویسی شیءگرا
+object-relational database management system:سامانة مدیریت پایگاه‌دادة شیئی‌ـ‌ رابطه‌ای
+ORDBMS:سامانة مدیریت پایگاه‌دادة شیئی‌ـ‌ رابطه‌ای
+object orientation:شیءگرایی
+OO:شیءگرایی
+object oriented:شیءگرا
+off-line:برون‏خط 2
+off-line processing:پردازش برون‏خط
+on-line:برخط
+on-line processing:پردازش برخط
+online database:پایگاه‌دادة برخط 
+online learner:یادگیرندۀ برخط
+online learning:یادگیری برخط
+online learning system:نظام یادگیری برخط
+online trainee:کارآموز برخط
+online trainer:مربی برخط
+online training:آموزش برخط
+online training system:نظام آموزشی برخط
+open 1:باز کردن
+open-file backup:پشتیبان‌گیری پرونده‌باز
+open source:متن‏باز
+open source software:نرم‏افزار متن‏باز
+operating system:سامانۀ عامل
+optical character recognition:نویسه‏خوانی نوری
+OCR:نویسه‏خوانی نوری
+orientation sensor:حسگر راستا
+originator:پیام‏ساز
+outbox:ارسالی
+output 1:برونداد
+output device:خروجی 1
+output 2:خروجی 1
+outsourcing:برون‏سپاری
+PaaS:خاب 1
+package 1:بسته 1
+packaged software:نرم‏افزار بسته‏ای
+packet:بستک 2
+datagram:بستک 2
+pad 3:لَت 1
+padlette:رایانک‌گیر
+page layout:صفحه‏آرایی
+page printer:چاپگر صفحه‏ای
+page setup:تنظیم صفحه
+parallel 1:موازی
+parallel access:دستیابی موازی
+simultaneous access:دستیابی موازی
+parallel computing:رایانش موازی
+passive attack:حملۀ انفعالی
+password:اسم رمز
+patch 1:پار
+pause key:کلید مکث
+pause 2:کلید مکث
+pedometer:گام‌شمار
+perfective maintenance:نگهداری تکمیلی
+Perl interpreter:مفسّرِ پرل
+permalink:پایاپیوند
+permanent link:پایاپیوند
+personal area network:شبکۀ شخصی
+PAN:شبکۀ شخصی
+personal computer:رایانۀ شخصی
+personal digital assistant:دستیار رقمی شخصی
+PDA 2:دستیار رقمی شخصی
+personalization:شخصی‌سازی
+personalize:شخصی کردن
+personalized:شخصی‏سازی‏شده
+phablet:رایان‌گوشی
+phishing:طعمه‌گذاری
+photoblog:وب‏نوشت عکسی
+photoblogger:وب‏نویس عکسی
+photoblogging:وب‏نویسی عکسی
+plain text 1:متن اصلی
+clear text 2:متن اصلی
+platform as a service:خدمات اَبری بُن‌سازه
+plesiochronous:شبه‌هم‌زمان
+plug-in:افزایه
+add-on 1:افزایه
+pocket computer:رایانۀ جیبی
+hand-held computer:رایانۀ جیبی
+palmtop computer:رایانۀ جیبی
+point-in-time backup:پشتیبان‌گیری مقطعی
+PIT backup:پشتیبان‌گیری مقطعی
+snapshots:پشتیبان‌گیری مقطعی
+point-to-point connection:اتصال نقطه‌به‌نقطه
+point-to-point topology:هم‏بندی نقطه‏به‏نقطه
+point of presence:بودگاه 2
+pop:بودگاه 2
+pointer:اشاره‏گر
+pointing device:افزارۀ اشاره
+pop-down menu:گزینگان پایین‏پَر
+pull-down menu:گزینگان پایین‏پَر
+pop-over advertisement:آگهی پیش‏نما
+pop-over ad:آگهی پیش‏نما
+pop-under advertisement:آگهی پس‏نما
+pop-up menu:گزینگان بالاپَر
+port 1:بندر
+portability:انتقال‏پذیری
+porting:انتقال‏پذیری
+transferability:انتقال‏پذیری
+portable 1:انتقال‌پذیر
+portal 1:بندری
+power-aware:توان‌آگاه
+power-aware computing:رایانش توان‌آگاه
+power awareness:توان‌آگاهی
+power bank:باتری‌پُرکن همراه
+predictive analytics:واکاوش پیش‌نگر
+prescriptive analytics:واکاوش تجویزی
+primary storage:ذخیره‏ساز اولیه
+print 1:چاپ
+print preview:پیش‏نمای چاپ
+print screen key:کلید چاپ صفحه
+print screen:کلید چاپ صفحه
+printed circuit:مدار چاپی
+printed circuit board:تخته‏مدار چاپی
+printer:چاپگر
+privacy:حریم
+privacy compromise:حریم‏شکنی
+private cloud:اَبر خصوصی
+private cloud storage:انبارش اَبری خصوصی
+private data:داده‏های شخصی
+personal data:داده‏های شخصی
+private key:کلید خصوصی
+privilege:حق ویژه
+processing:پردازش
+processor 1:پردازنده
+proprietary software:نرم‏افزار مالکیتی
+non-free software:نرم‏افزار مالکیتی
+protected data:داده‏های حفاظت‏شده
+proxy server:پیشکار
+proxy:پیشکار
+pseudo-information:شبه‌اطلاعات
+quasi-information:شبه‌اطلاعات
+public cloud:اَبر عمومی
+public key:کلید عمومی
+public key encryption:رمزبندی با کلید عمومی
+published database:دادگان منتشرشده
+quantified self:خودِ کمّی
+QS:خودِ کمّی
+self-tracking:خودِ کمّی
+auto-analytics:خودِ کمّی
+body hacking:خودِ کمّی
+self-quantifying:خودِ کمّی
+query:پُرسمان
+query processing:پُرسمان‏پردازی
+queue:صف
+RAM:حافظۀ مستقیم 
+RDBMS:سامپادرا 
+ROM:حافظۀ خواندنی 
+RSS 2:هم‌بس 
+RSS feed:جارزن هم‌بس
+radio determination:تعیین رادیویی
+Random Access Memory:حافظۀ دستیابی مستقیم
+direct access memory:حافظۀ دستیابی مستقیم
+ransomware:باج‌افزار
+Read Only Memory:حافظۀ فقط خواندنی
+readability:خوانایی
+readable:خوانا
+real-time:بی‏درنگ
+really simple syndication:هم‌نشری بیش‌ساده
+rich site summary:هم‌نشری بیش‌ساده
+reasonableness test:آزمون معقولیت
+reboot:بازراه‏اندازی کردن
+receipt printer:چاپگر رسید
+receive:دریافت 1
+receiver:گیرنده 2
+reconfiguration:بازپیکربندی
+recorded information:اطلاعات مضبوط
+redo:اَزنو
+redundancy:افزونگی
+reference template:نمونۀ مرجع
+template 2:نمونۀ مرجع
+refresh:بازآوردن
+refreshed:بازآورده
+refreshing:بازآوری 2
+register 1:ثبّات
+ relational database:پایگاه‌دادة رابطه‌ای
+RDB:پایگاه‌دادة رابطه‌ای
+relational database management system:سامانة مدیریت پایگاه‌دادة رابطه‌ای
+reliability 1:اطمینان‏پذیری
+reliable:اطمینان‏پذیر
+reload:بار کردن مجدد
+represented data:داده‏های بازنموده
+requirements:نیازها
+requirements acquisition:گردآوری نیاز
+requirements analysis:نیازکاوی
+reset button:دکمۀ بازنشانی
+resource description framework:نمودگار منبع
+reusable software:نرم‏افزار بازکاربردپذیر
+reverse delta backup:پشتیبان‌گیری تفاضلی بازگشتی
+right-aligned:راست‏تراز
+right arrow key:کلید راست‏بَر
+right arrow :کلید راست‏بَر
+risk assessment:ارزیابی خطر
+rootkit:ردگم‏کن
+router:رهیاب 2
+running-key:کلید جریانی
+SDN:شبنا 
+SDN controller:واشبنا 
+SDRAM:حافظۀ هم‌زمان
+SECaaS:خام 1 
+STaaS:خان 
+SaaS:خانا 
+sample data:داده‏های نمونه
+save 1:حفظ
+save as:حفظ بانام
+scareware:ترس‏افزار
+screen 1:آشغال‌گیر
+screen mirroring:پخش آینه‌ای
+screen saver:پرده‏بان
+screen shot:نماگرفت
+screen capture:نماگرفت
+scroll 1:پیچک 3
+scroll bar:نوار نَوَرد
+scrolled:نَوَردیده
+scrolling:نَوَردش
+search:جست‏وجو
+search engine:جویشگر
+searcher:جست‏وجوگر 2
+secondary storage:ذخیره‏ساز ثانویه
+secure electronic signature:امضای ‏الکترونیکی مطمئن
+enhanced electronic signature:امضای ‏الکترونیکی مطمئن
+advanced electronic signature:امضای ‏الکترونیکی مطمئن
+secure information system:سامانۀ اطلاعاتی امن
+secure method:روش امن
+security as a service:خدمات اَبری امنیت
+selective dissemination of information:اشاعۀ گزینشی اطلاعات
+SDI:اشاعۀ گزینشی اطلاعات
+self-voicing browser:مرورگر گویا
+semi-structured information:اطلاعات نیم‌ساختمند
+send:ارسال 2
+serial 1:زنجیره 2
+server farm:کارسازگان
+server cluster:کارسازگان
+computer farm:کارسازگان
+service level agreement:موافقت‏نامۀ سطح خدمات
+SLA:موافقت‏نامۀ سطح خدمات
+service model:نوع خدمات
+shareware:نرم‏افزار مشروط
+shift key:کلید تبدیل
+shift 1:کلید تبدیل
+shovelware:درهم‏افزار
+shut down 1:توقف
+signatory:امضاکننده
+Simple Mail Transfer Protocol:قرارداد سادۀ نامه‏رسانی
+SMTP:قرارداد سادۀ نامه‏رسانی
+simultaneous computer 1:رایانۀ همپا
+single-tasking:تک‏وظیفگی
+single task:تک‏وظیفه
+site 1:ایستگاه 1
+skinput:پوست‌کلید
+slash 1:دارماند
+smart terminal:پایانۀ نیم‏هوشمند
+programmable terminal:پایانۀ نیم‏هوشمند
+smombie:سربه‌گوشی
+sniffer:بویشگر
+sniffing:بویش
+software:نرم‏افزار
+software-defined networking:شبکه‌سازی نرم‌افزاری
+software-defined networking controller:واپایشگر شبکه‌سازی نرم‌افزاری
+software as a service:خدمات اَبری نرم‌افزار
+software bloat:فربهی نرم‌افزاری
+software deployment:به‌کاراندازی نرم‏افزار
+software design:طراحی نرم‏افزار
+software design review:بازبینی طراحی نرم‏افزار
+software designer:طراح نرم‏افزار
+software developer:تولیدکنندۀ نرم‏افزار
+software development:تولید نرم‏افزار
+software development model:مدل تولید نرم‏افزار
+software engineer:مهندس نرم‏افزار
+software engineering:مهندسی نرم‏افزار
+software factory:نرم‏افزارسازی
+software formal review:بازبینی رسمی نرم‏افزار
+software informal review:بازبینی غیررسمی نرم‏افزار
+software maintenance:نگهداری نرم‏افزار
+software managerial review:بازبینی مدیریتی نرم‏افزار
+software package:بستۀ نرم‏افزاری
+software reusability:بازکاربردپذیری نرم‏افزار
+software review:بازبینی نرم‏افزار
+software review techinque:روش بازبینی نرم‏افزار
+software reviewer:بازبین نرم‏افزار
+software suite:مجموعه‌نرم‏افزار
+application suite:مجموعه‌نرم‏افزار
+software usability:کاربردپذیری نرم‏افزار
+software validation:اعتبارسنجی نرم‏افزار
+software verification:درستی‌سنجی نرم‏افزار
+source code:کد منبع
+space key:کلید فاصله
+space 2:کلید فاصله
+spam 1:فرستادن هرزنامه
+spammed:هرززده
+spammer:هرزفرست
+spamming:هرزنویسی
+specification language:زبان تعریف مشخصات
+speech engine:گفتارگر
+speech recognition:بازشناسی گفتار
+spiral model:مدل حلزونی
+evolutionary model:مدل حلزونی
+spoofing 1:جعل
+spyware:جاسوس‏افزار
+stand-alone:خوداتّکا
+stand-by:آماده‏به‏کار
+star topology:هم‏بندی ستاره‏ای
+stationary hotspot:چندرسانی ایستگاهی
+status bar:نوار وضعیت
+stealware:دزدافزار
+sticker:چسبانقش
+stop 1:انسدادی
+storage 2:ذخیره‏سازی
+storage area network:شبکۀ ذخیره‏سازی
+SAN:شبکۀ ذخیره‏سازی
+storage as a service:خدمات اَبری انبارش
+storage device:ذخیره‏ساز
+store:ذخیره کردن
+stored:ذخیره‏شده
+string 1:تار 1
+structured information:اطلاعات ساختمند
+supercomputer:اَبَررایانه
+supermini computer:اَبَررایانه
+surfer 1:موج‌سوار
+surf rider:موج‌سوار
+surfing 1:موج‌سواری
+surf:موج‌سواری
+symmetric encryption:رمزبندی تککلیده
+synchronization 1:هم‌زمان‏سازی
+synchronize:هم‌زمان کردن
+synchronized:هم‌زمان‏شده
+synchronizer:هم‌زمان‌ساز
+synchronous:هم‌زمان
+Synchronous Dynamic Random Access Memory:حافظۀ پویای هم‌زمان
+synchronous learning:یادگیری هم‌زمان
+synchrony:هم‌زمانی 2
+syndicate:اتحادیه 1 
+union 1:اتحادیه 1 
+syndicated:هم‏نشر
+syndication:هم‏نشری
+system analysis:تحلیل سامانه
+system analyst:تحلیلگر سامانه
+system migration:سامانه‌گذری
+system safety:ایمنی سامانه
+TBT:آفَن
+tab key:کلید جهش
+tab 2:کلید جهش
+tablet computer:رایانک
+tablet 1:رایانک
+tape drive:رانۀ نوار
+task:وظیفه
+task bar:نوار وظیفه
+technology-based training:آموزش فن‏بنیاد
+tele-education:دورآموزی
+tele-medicine:دورپزشکی
+telematics:دوروَرزی
+telework:دورکاری
+telework centre:مرکز دورکاری
+template 1:الگو
+test case:آزمایه 1
+test data:داده‏های آزمایشی
+tethering:تک‌رسانی اینترنت
+smartphone hotspots:تک‌رسانی اینترنت
+text format:قالب متنی
+text processing:متن‏پردازی
+text processor:متن‏پرداز
+text telephone:تلفن پیام‏نما
+thread 1:ریسه 3
+threat:تهدید
+threat action:اِعمال تهدید
+throughput:گذرداد
+timer interrupt:وقفۀ زمانی
+tool:ابزار 1
+toolbar 1:ابزاربند
+tool carrier:ابزاربند
+top-down design:طراحی بالابه‌پایین
+touch screen:پردۀ لمسی
+touch display screen:پردۀ لمسی
+touchpad/ touch pad:لَتِ لمسی
+trackball:توپَک
+tracked data:داده‏های ردگیری‏شده
+ transactional database:پایگاه‌دادة تراکنشی
+transferred data:داده‏های رسانده
+Transmission Control Protocol:قرارداد هدایت انتقال
+TCP:قرارداد هدایت انتقال
+tree topology:هم‏بندی درختی
+Trojan Horse:اسب تروآ
+Trojan:اسب تروآ
+turn off:خاموش کردن
+switch off:خاموش کردن
+USB port:درگاهی همه‏گذر
+ultrasonic imaging:تصویربرداری فراصوتی
+undo:واگَرد
+uniform resource locator:نشانی وب
+universal resource locator:نشانی وب
+URL:نشانی وب
+Universal Serial Bus:همه‏گذر
+USB:همه‏گذر
+unstructured information:اطلاعات ناساختمند
+up arrow key:کلید بالابَر
+up arrow:کلید بالابَر
+update 1:روزآمد 1
+updating:روزآمدسازی
+upgrade:ارتقا دادن
+upgraded:ارتقایافته
+upgrading 1:ارتقا
+upper case:بالایی
+uptime 1:زمان به‌کار
+usable software:نرم‏افزار کاربردپذیر
+user:کاربر
+user-friendly:کاربرپسند
+user-friendly interface:واسط کاربرپسند
+UFI :واسط کاربرپسند
+user ID:شناسۀ کاربر
+user data:داده‌های کاربر
+user interface:واسط کاربر
+user name:نام کاربر
+VLC:ارنوم 
+vaporware:پوچ‏افزار
+verification & validation:اعتبار و درستی‌سنجی
+V&V :اعتبار و درستی‌سنجی
+verified software:نرم‏افزار درستی‌سنجی‌شده
+vertical scroll bar:نوار نَوَرد عمودی
+vertical scrolling:نَوَردش عمودی
+view 1:دید 2
+viewing:نماسازی
+virtual assistant:دستیار مجازی
+VA:دستیار مجازی
+virtualization:مجازی‌سازی
+virus:ویروس
+virus infected:ویروسی‏شده
+virus infection 1:ویروسی‏شدگی
+virus killer:ویروس‏کُش 2
+virus remover:ویروس‏زدا
+virus scanner:ویروس‏یاب
+virus scanning:ویروس‏یابی
+visible light communications:ارتباطات نورمرئی
+light fidelity:ارتباطات نورمرئی
+LI-FI:ارتباطات نورمرئی
+visualized data:داده‏های دیداری‏سازی‏شده
+vlog:وب‏نوشت ویدئویی
+vlogger:وب‏نویس ویدئویی
+vlogging:وب‏نویسی ویدئویی
+voice mail:پست صوتی
+voice recognition:بازشناسی صدا
+volumetric display:نمایشگر حجمی
+vulnerability:آسیب‏پذیری
+vulnerability assessment:ارزیابی آسیب‏پذیری
+WBT:آوب 
+WLAN:شداب 
+wabbit:کِرموش
+waterfall model:مدل آبشاری
+wearable computer:رایانۀ پوشیدنی
+body-borne computers:رایانۀ پوشیدنی
+wearables 2:رایانۀ پوشیدنی
+wearables 1:پوش‏افزار
+web-based:وب‏بنیاد
+web-based learning:یادگیری وب‏بنیاد
+WBL:یادگیری وب‏بنیاد
+web-based trainee:کارآموز وب‏بنیاد
+web-based training:آموزش وب‏بنیاد
+Internet-based training:آموزش وب‏بنیاد
+web TV:وبیزیون
+web cam:وب‏بین
+web hosting:میزبانی وب
+web master:وب‏دار
+web mastering:وب‏داری
+web page:صفحۀ وب
+web site:وبگاه
+site 5:وبگاه
+webber:وب‏باز
+webbing:وب‏بازی
+webcaster:وب‏پخشگر
+webcasting:وب‏پخش
+weblog:وب‏نوشت
+weblogger:وب‏نویس
+weblogging:وب‏نویسی
+website defacement:نماربایی وبگاه
+webware:وِب‏افزار
+white-box testing:آزمون درباز
+glass-box testing:آزمون درباز
+clear-box testing:آزمون درباز
+white hat:کلاه‌سفید
+Wi-Fi:وافا
+Wi-Fi technology:وافا
+wide area network:شبکۀ گسترده
+WAN:شبکۀ گسترده
+wildcard:نویسۀ جانشین
+window 1:پنجره 1
+windowing:پنجره‏بندی
+wireless local area network:شبکة داخلی بی‌سیم
+Wireless LAN:شبکة داخلی بی‌سیم
+word processing:واژه‏پردازی
+word processor:واژه‏پرداز
+workstation:ایستگاه کار
+world wide web:جهان‏وب
+www:جهان‏وب
+worm:کِرم
+X as a service:خدمات اَبری 2
+XaaS:خا ـ 

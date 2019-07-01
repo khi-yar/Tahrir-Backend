@@ -7,11 +7,11 @@ from django.db import models
 
 
 class PersianWord(models.Model):
-    word = models.CharField(max_length=50, unique=True)
+    word = models.CharField(max_length=60, unique=True)
 
 
 class EnglishWord(models.Model):
-    word = models.CharField(max_length=50, unique=True)
+    word = models.CharField(max_length=60, unique=True)
 
     def save(self, *args, **kwargs):
         self.word = self.word.lower()
