@@ -13,6 +13,12 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
+echo 'Creating admins'
+cat admin_creator.py | ./manage.py shell
+
+echo 'Trying to add initial data to the Database'
+cat approved_words_adder.py | ./manage.py shell
+
 exec gunicorn --env DJANGO_SETTINGS_MODULE=TahrirBackend.settings TahrirBackend.wsgi \
     --name tahrir-gunicorn \
     --bind 0.0.0.0:5555 \
