@@ -32,11 +32,11 @@ docker-compose up
 ## Authors
 
 * **Sam Mosleh** - *Backend* - [Khiyar1](https://github.com/sam-mosleh)
-* **Pedram Taheri** - *Backend* - [Khiyar2](https://github.com/sam-mosleh)
-* **Soheil Movahedan** - *Front-end* - [Khiyar3](https://github.com/sam-mosleh)
-* **Amirhossein Tahmasebzade** - *Front-end* - [Khiyar4](https://github.com/sam-mosleh)
-* **Parsa Yahui** - *Front-end* - [Khiyar5](https://github.com/sam-mosleh)
-* **Alireza Kamkaar** - *Documents* - [Khiyar6](https://github.com/sam-mosleh)
+* **Pedram Taheri** - *Backend* - [Khiyar2](https://github.com/pdrmtaheri)
+* **Soheil Movahedan** - *Front-end* - [Khiyar3](https://github.com/movahedan)
+* **Amirhossein Tahmasebzade** - *Front-end* - [Khiyar4](https://github.com/amirhoseintahmasb)
+* **Parsa Yahui** - *Front-end* - [Khiyar5](https://github.com/ParsaFares)
+* **Alireza Kamkaar** - *Documents* - [Khiyar6](https://github.com/Devaince)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
