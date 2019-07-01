@@ -15,15 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
 from TahrirBackend import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
     path('translation/get', views.get_translation),
-
     path('translation/create', views.create_translation),
-
-    path('comment/create', views.create_comment)
+    path('comment/create', views.create_comment),
+    path('echo', views.echo)
 ]
