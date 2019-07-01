@@ -9,7 +9,7 @@ with open('./en2fa.pkl', 'rb') as pickle_file:
     init_data = pickle.load(pickle_file)
 
 for english, farsi in init_data.items():
-    print(english.lower(), farsi)
+    # print(english.lower(), farsi)
     p, e = None, None
     try:
         p = PersianWord.objects.get(word=farsi)
