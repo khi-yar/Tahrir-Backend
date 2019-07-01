@@ -3,7 +3,8 @@ import logging
 from django.http import (HttpResponse, HttpResponseBadRequest,
                          HttpResponseNotFound, JsonResponse)
 from django.views.decorators.csrf import csrf_exempt
-from django.views.decorators.http import require_GET, require_POST
+from django.views.decorators.http import (require_GET, require_http_methods,
+                                          require_POST)
 from TahrirBackend.models import (Comment, EnglishWord, EnToFaTranslation,
                                   FaToEnTranslation, PersianWord)
 
@@ -24,9 +25,15 @@ def _build_translation_response(translations):
     }
 
 
-@require_GET
+@require_http_methods(['GET', 'POST'])
+@csrf_exempt
 def echo(request):
-    return JsonResponse(request.GET)
+    if request.method == 'GET':
+        return JsonResponse(request.GET)
+    elif request.method == 'POST':
+        return JsonResponse(request.POST)
+    else:
+        return JsonResponse({})
 
 
 @require_GET
