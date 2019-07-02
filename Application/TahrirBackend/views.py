@@ -83,12 +83,12 @@ def create_translation(request):
             return HttpResponseNotFound("English word ({}) not found".format(
                 word.lower()))
         etf, created = EnToFaTranslation.objects.get_or_create(
-            word=word,
-            translation=translation,
-            submitter_name=submitter_name,
-            verified=True)
+            word=word, translation=translation)
         if not created:
             return HttpResponse('Translation exists')
+        else:
+            etf.submitter_name = submitter_name
+            etf.save()
     elif lang == 'fa':
         try:
             word = PersianWord.objects.get(word=word)
@@ -104,7 +104,7 @@ def create_translation(request):
             submitter_name=submitter_name,
             verified=True)
         if not created:
-            return HttpResponse('Translation exists : {}'.format(e))
+            return HttpResponse('Translation exists')
     else:
         return HttpResponseBadRequest('Invalid "lang" param')
 
@@ -184,4 +184,5 @@ def create_report(request):
     else:
         return HttpResponseBadRequest('Language is not correctly specified')
     word.suggested_to_translate = True
+    word.save()
     return HttpResponse('The word is now suggested.')
