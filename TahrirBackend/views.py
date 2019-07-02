@@ -1,3 +1,4 @@
+import json
 import logging
 
 from django.http import (HttpResponse, HttpResponseBadRequest,
@@ -31,7 +32,8 @@ def echo(request):
     if request.method == 'GET':
         return JsonResponse(request.GET)
     elif request.method == 'POST':
-        return JsonResponse(request.POST)
+        body = json.loads(request.body)
+        return JsonResponse(body)
     else:
         return JsonResponse({'Not valid!'})
 
@@ -63,14 +65,22 @@ def get_translation(request):
 @require_POST
 @csrf_exempt
 def create_translation(request):
-    word, translation, lang = request.POST.get('word'), request.POST.get(
-        'translation'), request.POST.get('lang')
+    body = {}
+
+    try:
+        body = json.loads(request.body)
+    except json.JSONDecodeError:
+        return HttpResponseBadRequest('Please fill a json object')
+
+    word, translation, lang = body.get('word'), body.get(
+        'translation'), body.get('lang')
+
     if not word or not translation or not lang:
         return HttpResponseBadRequest(
             'Parameters "word", "translation" and "lang" not provided correctly'
         )
 
-    submitter_name = request.POST.get('name')
+    submitter_name = body.get('name')
     if lang == 'en':
         try:
             word = EnglishWord.objects.get(word=word.lower())
@@ -98,8 +108,16 @@ def create_translation(request):
 @require_POST
 @csrf_exempt
 def create_comment(request):
-    word, translation, lang = request.POST.get('word'), request.POST.get(
-        'translation'), request.POST.get('lang')
+    body = {}
+
+    try:
+        body = json.loads(request.body)
+    except json.JSONDecodeError:
+        return HttpResponseBadRequest('Please fill a json object')
+
+    word, translation, lang = body.get('word'), body.get(
+        'translation'), body.get('lang')
+
     if not word or not translation or not lang:
         return HttpResponseBadRequest(
             'Parameters "word", "translation" and "lang" not provided correctly'
@@ -127,8 +145,9 @@ def create_comment(request):
     except (EnToFaTranslation.DoesNotExist, FaToEnTranslation.DoesNotExist):
         return HttpResponseNotFound('Translation not found')
 
-    name, comment, rating = request.POST.get('name'), request.POST.get(
-        'comment'), request.POST.get('rating')
+    name, comment, rating = body.get('name'), body.get('comment'), body.get(
+        'rating')
+
     if not name or not comment or not rating:
         return HttpResponseBadRequest(
             'Parameters "name", "comment" and "rating" not provided correctly')
