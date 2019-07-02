@@ -86,7 +86,8 @@ def create_translation(request):
             word = EnglishWord.objects.get(word=word.lower())
             translation = PersianWord.objects.get(word=translation)
         except EnglishWord.DoesNotExist:
-            return HttpResponseNotFound("Word not found")
+            return HttpResponseNotFound("English word ({}) not found".format(
+                word.lower()))
         except PersianWord.DoesNotExist:
             translation = PersianWord(word=translation)
             translation.save()
@@ -101,7 +102,8 @@ def create_translation(request):
             word = PersianWord.objects.get(word=word)
             translation = EnglishWord.objects.get(word=translation.lower())
         except PersianWord.DoesNotExist:
-            return HttpResponseNotFound("Word not found")
+            return HttpResponseNotFound(
+                "Persian word ({}) not found".format(word))
         except EnglishWord.DoesNotExist:
             translation = EnglishWord(word=translation.lower())
             translation.save()
