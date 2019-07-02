@@ -8,14 +8,24 @@ from django.db import models
 
 class PersianWord(models.Model):
     word = models.CharField(max_length=60, unique=True)
+    suggested_to_translate = models.BooleanField(default=False)
+    is_approved = models.BooleanField(default=False)
+
+    def __str__(self):
+        return self.word
 
 
 class EnglishWord(models.Model):
     word = models.CharField(max_length=60, unique=True)
+    suggested_to_translate = models.BooleanField(default=False)
+    is_approved = models.BooleanField(default=False)
 
     def save(self, *args, **kwargs):
         self.word = self.word.lower()
         super(EnglishWord, self).save(*args, **kwargs)
+
+    def __str__(self):
+        return self.word
 
 
 class Comment(models.Model):
@@ -33,18 +43,23 @@ class Comment(models.Model):
             raise ValidationError('Rating outside valid range.')
         super(Comment, self).save(*args, **kwargs)
 
+    def __str__(self):
+        return self.comment
+
 
 class FaToEnTranslation(models.Model):
     word = models.ForeignKey(PersianWord, on_delete=models.CASCADE)
     translation = models.ForeignKey(EnglishWord, on_delete=models.CASCADE)
 
     verified = models.BooleanField(default=False)
-    submitter_name = models.CharField(max_length=50)
+    submitter_name = models.CharField(max_length=50, blank=True, null=True)
 
     comments = GenericRelation(Comment)
 
     class Meta:
         unique_together = ('word', 'translation')
+        verbose_name = 'Farsi To English'
+        verbose_name_plural = 'Farsi To English'
 
 
 class EnToFaTranslation(models.Model):
@@ -52,9 +67,11 @@ class EnToFaTranslation(models.Model):
     translation = models.ForeignKey(PersianWord, on_delete=models.CASCADE)
 
     verified = models.BooleanField(default=False)
-    submitter_name = models.CharField(max_length=50)
+    submitter_name = models.CharField(max_length=50, blank=True, null=True)
 
     comments = GenericRelation(Comment)
 
     class Meta:
         unique_together = ('word', 'translation')
+        verbose_name = 'English To Farsi'
+        verbose_name_plural = 'English To Farsi'

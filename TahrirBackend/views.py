@@ -65,57 +65,45 @@ def get_translation(request):
 @require_POST
 @csrf_exempt
 def create_translation(request):
-    body = {}
-
-    try:
-        body = json.loads(request.body)
-    except json.JSONDecodeError:
-        return HttpResponseBadRequest('Please fill a json object')
-
-    word, translation, lang = body.get('word'), body.get(
-        'translation'), body.get('lang')
+    word, translation, lang = request.POST.get('word'), request.POST.get(
+        'translation'), request.POST.get('lang')
 
     if not word or not translation or not lang:
         return HttpResponseBadRequest(
             'Parameters "word", "translation" and "lang" not provided correctly'
         )
 
-    submitter_name = body.get('name')
+    submitter_name = request.POST.get('name')
     if lang == 'en':
         try:
             word = EnglishWord.objects.get(word=word.lower())
-            translation = PersianWord.objects.get(word=translation)
+            translation, _ = PersianWord.objects.get_or_create(
+                word=translation)
         except EnglishWord.DoesNotExist:
             return HttpResponseNotFound("English word ({}) not found".format(
                 word.lower()))
-        except PersianWord.DoesNotExist:
-            translation = PersianWord(word=translation)
-            translation.save()
-        try:
-            etf = EnToFaTranslation(word=word,
-                                    translation=translation,
-                                    submitter_name=submitter_name,
-                                    verified=True)
-            etf.save()
-        except Exception as e:
-            return HttpResponse('Translation exists : {}'.format(e))
+        etf, created = EnToFaTranslation.objects.get_or_create(
+            word=word,
+            translation=translation,
+            submitter_name=submitter_name,
+            verified=True)
+        if not created:
+            return HttpResponse('Translation exists')
     elif lang == 'fa':
         try:
             word = PersianWord.objects.get(word=word)
-            translation = EnglishWord.objects.get(word=translation.lower())
+            translation, _ = EnglishWord.objects.get_or_create(
+                word=translation.lower())
         except PersianWord.DoesNotExist:
             return HttpResponseNotFound(
                 "Persian word ({}) not found".format(word))
-        except EnglishWord.DoesNotExist:
-            translation = EnglishWord(word=translation.lower())
-            translation.save()
-        try:
-            fte = FaToEnTranslation(word=word,
-                                    translation=translation,
-                                    submitter_name=submitter_name,
-                                    verified=True)
-            fte.save()
-        except Exception as e:
+
+        fte, created = FaToEnTranslation.objects.get_or_create(
+            word=word,
+            translation=translation,
+            submitter_name=submitter_name,
+            verified=True)
+        if not created:
             return HttpResponse('Translation exists : {}'.format(e))
     else:
         return HttpResponseBadRequest('Invalid "lang" param')
@@ -126,15 +114,8 @@ def create_translation(request):
 @require_POST
 @csrf_exempt
 def create_comment(request):
-    body = {}
-
-    try:
-        body = json.loads(request.body)
-    except json.JSONDecodeError:
-        return HttpResponseBadRequest('Please fill a json object')
-
-    word, translation, lang = body.get('word'), body.get(
-        'translation'), body.get('lang')
+    word, translation, lang = request.POST.get('word'), request.POST.get(
+        'translation'), request.POST.get('lang')
 
     if not word or not translation or not lang:
         return HttpResponseBadRequest(
@@ -147,7 +128,7 @@ def create_comment(request):
                 word = EnglishWord.objects.get(word=word.lower())
                 translation = PersianWord.objects.get(word=translation)
             except (EnglishWord.DoesNotExist, PersianWord.DoesNotExist):
-                return HttpResponseNotFound("Word not in DB")
+                return HttpResponseNotFound("Word not found in DB")
             translation = EnToFaTranslation.objects.get(
                 word=word, translation=translation)
         elif lang == 'fa':
@@ -155,7 +136,7 @@ def create_comment(request):
                 word = PersianWord.objects.get(word=word)
                 translation = EnglishWord.objects.get(word=translation.lower())
             except (EnglishWord.DoesNotExist, PersianWord.DoesNotExist):
-                return HttpResponseNotFound("Word not in DB")
+                return HttpResponseNotFound("Word not found in DB")
             translation = FaToEnTranslation.objects.get(
                 word=word, translation=translation)
         else:
@@ -163,16 +144,19 @@ def create_comment(request):
     except (EnToFaTranslation.DoesNotExist, FaToEnTranslation.DoesNotExist):
         return HttpResponseNotFound('Translation not found')
 
-    name, comment, rating = body.get('name'), body.get('comment'), body.get(
-        'rating')
+    name, comment, rating = request.POST.get('name'), request.POST.get(
+        'comment'), request.POST.get('rating')
 
     if not name or not comment or not rating:
         return HttpResponseBadRequest(
             'Parameters "name", "comment" and "rating" not provided correctly')
 
-    Comment.objects.create(translation=translation,
-                           submitter_name=name,
-                           comment=comment,
-                           rating=rating)
+    comment, created = Comment.objects.get_or_create(translation=translation,
+                                                     submitter_name=name,
+                                                     comment=comment,
+                                                     rating=rating)
 
-    return HttpResponse('Comment successfully created')
+    if created:
+        return HttpResponse('Comment successfully created')
+    else:
+        return HttpResponse('Duplicate comment.')
