@@ -21,6 +21,7 @@ class PersianWordAdmin(admin.ModelAdmin):
 
 @admin.register(EnToFaTranslation)
 class EnToFaAdmin(admin.ModelAdmin):
+    ordering = ['word']
     list_display = ('word', 'translation', 'verified')
     list_filter = ('verified', )
     search_field = ['word', 'translation']
@@ -28,6 +29,7 @@ class EnToFaAdmin(admin.ModelAdmin):
 
 @admin.register(FaToEnTranslation)
 class FaToEnAdmin(admin.ModelAdmin):
+    ordering = ['word']
     list_display = ('word', 'translation', 'verified')
     list_filter = ('verified', )
     search_field = ['word', 'translation']

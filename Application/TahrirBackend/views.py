@@ -151,12 +151,21 @@ def create_comment(request):
         return HttpResponseBadRequest(
             'Parameters "name", "comment" and "rating" not provided correctly')
 
-    comment, created = Comment.objects.get_or_create(translation=translation,
-                                                     submitter_name=name,
-                                                     comment=comment,
-                                                     rating=rating)
+    comment = Comment.objects.create(translation=translation,
+                                     submitter_name=name,
+                                     comment=comment,
+                                     rating=rating)
+    return HttpResponse('Comment successfully created')
 
-    if created:
-        return HttpResponse('Comment successfully created')
-    else:
-        return HttpResponse('Duplicate comment.')
+
+@require_GET
+def get_report(request):
+    persian_suggesteds = [
+        word_object.word for word_object in PersianWord.objects.filter(
+            suggested_to_translate=True)
+    ]
+    english_suggesteds = [
+        word_object.word for word_object in EnglishWord.objects.filter(
+            suggested_to_translate=True)
+    ]
+    return JsonResponse({'fa': persian_suggesteds, 'en': english_suggesteds})
