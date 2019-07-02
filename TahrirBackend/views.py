@@ -92,11 +92,12 @@ def create_translation(request):
             translation = PersianWord(word=translation)
             translation.save()
         try:
-            EnToFaTranslation.objects.create(word=word,
-                                             translation=translation,
-                                             submitter_name=submitter_name)
-        except Exception:
-            return HttpResponse('Translation exists')
+            etf = EnToFaTranslation(word=word,
+                                    translation=translation,
+                                    submitter_name=submitter_name)
+            etf.save()
+        except Exception as e:
+            return HttpResponse('Translation exists : {}'.format(e))
     elif lang == 'fa':
         try:
             word = PersianWord.objects.get(word=word)
@@ -108,11 +109,12 @@ def create_translation(request):
             translation = EnglishWord(word=translation.lower())
             translation.save()
         try:
-            FaToEnTranslation.objects.create(word=word,
-                                             translation=translation,
-                                             submitter_name=submitter_name)
-        except Exception:
-            return HttpResponse('Translation exists')
+            fte = FaToEnTranslation(word=word,
+                                    translation=translation,
+                                    submitter_name=submitter_name)
+            fte.save()
+        except Exception as e:
+            return HttpResponse('Translation exists : {}'.format(e))
     else:
         return HttpResponseBadRequest('Invalid "lang" param')
 
