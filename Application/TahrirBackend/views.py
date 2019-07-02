@@ -169,3 +169,19 @@ def get_report(request):
             suggested_to_translate=True)
     ]
     return JsonResponse({'fa': persian_suggesteds, 'en': english_suggesteds})
+
+
+@require_POST
+@csrf_exempt
+def create_report(request):
+    word, lang = request.POST.get('word'), request.POST.get('lang')
+    if not word or not lang:
+        return HttpResponseBadRequest('Not a valid request.')
+    if lang == 'en':
+        word, created = EnglishWord.objects.get_or_create(word=word.lower())
+    elif lang == 'fa':
+        word, created = PersianWord.objects.get_or_create(word=word)
+    else:
+        return HttpResponseBadRequest('Language is not correctly specified')
+    word.suggested_to_translate = True
+    return HttpResponse('The word is now suggested.')

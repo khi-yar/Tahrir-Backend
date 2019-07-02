@@ -25,6 +25,6 @@ urlpatterns = [
     path('translation/create', views.create_translation),
     path('comment/create', views.create_comment),
     path('translation/report/get', views.get_report),
-    #path('translation/report/create', views.creat_report),
+    path('translation/report/create', views.create_report),
     path('echo', views.echo)
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
