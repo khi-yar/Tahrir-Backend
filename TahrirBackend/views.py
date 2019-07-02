@@ -94,7 +94,8 @@ def create_translation(request):
         try:
             etf = EnToFaTranslation(word=word,
                                     translation=translation,
-                                    submitter_name=submitter_name)
+                                    submitter_name=submitter_name,
+                                    verified=True)
             etf.save()
         except Exception as e:
             return HttpResponse('Translation exists : {}'.format(e))
@@ -111,7 +112,8 @@ def create_translation(request):
         try:
             fte = FaToEnTranslation(word=word,
                                     translation=translation,
-                                    submitter_name=submitter_name)
+                                    submitter_name=submitter_name,
+                                    verified=True)
             fte.save()
         except Exception as e:
             return HttpResponse('Translation exists : {}'.format(e))
