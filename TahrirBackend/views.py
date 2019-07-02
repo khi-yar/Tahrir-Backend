@@ -32,8 +32,8 @@ def echo(request):
     if request.method == 'GET':
         return JsonResponse(request.GET)
     elif request.method == 'POST':
-        body = json.loads(request.body)
-        return JsonResponse(body)
+        decoded_body = request.body.decode('utf-8')
+        return JsonResponse({'Data': decoded_body})
     else:
         return JsonResponse({'Not valid!'})
 
@@ -85,20 +85,32 @@ def create_translation(request):
         try:
             word = EnglishWord.objects.get(word=word.lower())
             translation = PersianWord.objects.get(word=translation)
-        except (EnglishWord.DoesNotExist, PersianWord.DoesNotExist):
-            return HttpResponseNotFound("Word/Translation pair not found")
-        EnToFaTranslation.objects.create(word=word,
-                                         translation=translation,
-                                         submitter_name=submitter_name)
+        except EnglishWord.DoesNotExist:
+            return HttpResponseNotFound("Word not found")
+        except PersianWord.DoesNotExist:
+            translation = PersianWord(word=translation)
+            translation.save()
+        try:
+            EnToFaTranslation.objects.create(word=word,
+                                             translation=translation,
+                                             submitter_name=submitter_name)
+        except Exception:
+            return HttpResponse('Translation exists')
     elif lang == 'fa':
         try:
             word = PersianWord.objects.get(word=word)
             translation = EnglishWord.objects.get(word=translation.lower())
-        except (EnglishWord.DoesNotExist, PersianWord.DoesNotExist):
-            return HttpResponseNotFound("Word/Translation pair not found")
-        FaToEnTranslation.objects.create(word=word,
-                                         translation=translation,
-                                         submitter_name=submitter_name)
+        except PersianWord.DoesNotExist:
+            return HttpResponseNotFound("Word not found")
+        except EnglishWord.DoesNotExist:
+            translation = EnglishWord(word=translation.lower())
+            translation.save()
+        try:
+            FaToEnTranslation.objects.create(word=word,
+                                             translation=translation,
+                                             submitter_name=submitter_name)
+        except Exception:
+            return HttpResponse('Translation exists')
     else:
         return HttpResponseBadRequest('Invalid "lang" param')
 
