@@ -25,7 +25,7 @@ urlpatterns = [
     path('translation/create', views.create_translation),
     path('comment/create', views.create_comment),
     path('translation/report/get', views.get_report),
-    path('translation/report/create', views.create_report),
+    path('translation/report/add', views.create_report),
     path('account/signin', weak_login.signin),
     path('account/signup', weak_login.signup),
     path('echo', views.echo)

@@ -30,7 +30,7 @@ def signup(request):
     if not username or not password:
         return HttpResponseBadRequest('user or pass not found')
     if User.objects.filter(username=username).exists():
-        return HttpResponse('Duplicate username.')
+        return HttpResponseBadRequest('Duplicate username.')
     else:
         User.objects.create_user(username=username, password=password)
         return HttpResponse('User created')
