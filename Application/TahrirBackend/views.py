@@ -8,6 +8,7 @@ from django.views.decorators.http import (require_GET, require_http_methods,
                                           require_POST)
 from TahrirBackend.models import (Comment, EnglishWord, EnToFaTranslation,
                                   FaToEnTranslation, PersianWord)
+from TahrirBackend.weak_login import login_required_here
 
 logger = logging.getLogger(__name__)
 
@@ -99,15 +100,14 @@ def create_translation(request):
                 "Persian word ({}) not found".format(word))
 
         fte, created = FaToEnTranslation.objects.get_or_create(
-            word=word,
-            translation=translation,
-            submitter_name=submitter_name,
-            verified=True)
+            word=word, translation=translation)
         if not created:
             return HttpResponse('Translation exists')
+        else:
+            fte.submitter_name = submitter_name
+            fte.save()
     else:
         return HttpResponseBadRequest('Invalid "lang" param')
-
     return HttpResponse('Translation successfully created')
 
 

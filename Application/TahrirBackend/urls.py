@@ -17,7 +17,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
-from TahrirBackend import views
+from TahrirBackend import views, weak_login
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -26,5 +26,7 @@ urlpatterns = [
     path('comment/create', views.create_comment),
     path('translation/report/get', views.get_report),
     path('translation/report/create', views.create_report),
+    path('account/signin', weak_login.signin),
+    path('account/signup', weak_login.signup),
     path('echo', views.echo)
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
