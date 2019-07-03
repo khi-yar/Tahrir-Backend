@@ -17,6 +17,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
+
 from TahrirBackend import views, weak_login
 
 urlpatterns = [
@@ -24,8 +25,8 @@ urlpatterns = [
     path('translation/get', views.get_translation),
     path('translation/create', views.create_translation),
     path('comment/create', views.create_comment),
-    path('translation/report/get', views.get_report),
-    path('translation/report/add', views.create_report),
+    path('report/get', views.get_report),
+    path('report/add', views.create_report),
     path('account/signin', weak_login.signin),
     path('account/signup', weak_login.signup),
     path('echo', views.echo)

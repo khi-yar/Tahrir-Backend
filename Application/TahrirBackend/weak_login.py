@@ -36,7 +36,7 @@ def signup(request):
         return HttpResponse('User created')
 
 
-@require_POST
+@require_GET
 @csrf_exempt
 def signin(request):
     username, password = request.POST.get('user'), request.POST.get('pass')

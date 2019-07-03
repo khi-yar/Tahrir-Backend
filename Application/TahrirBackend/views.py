@@ -6,6 +6,7 @@ from django.http import (HttpResponse, HttpResponseBadRequest,
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import (require_GET, require_http_methods,
                                           require_POST)
+
 from TahrirBackend.models import (Comment, EnglishWord, EnToFaTranslation,
                                   FaToEnTranslation, PersianWord)
 from TahrirBackend.weak_login import login_required_here
@@ -162,11 +163,11 @@ def create_comment(request):
 def get_report(request):
     persian_suggesteds = [
         word_object.word for word_object in PersianWord.objects.filter(
-            suggested_to_translate=True)
+            is_approved=True, suggested_to_translate=True)
     ]
     english_suggesteds = [
         word_object.word for word_object in EnglishWord.objects.filter(
-            suggested_to_translate=True)
+            is_approved=True, suggested_to_translate=True)
     ]
     return JsonResponse({'fa': persian_suggesteds, 'en': english_suggesteds})
 
